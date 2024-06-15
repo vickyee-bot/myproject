@@ -1,5 +1,11 @@
-function Hello(){
-    return <h1>Hello from a component</h1>;
+function Hello(props) {
+  return (
+    <div>
+      <h1>
+        {/* {props.person.message} {props.person.name} {props.person.seatNumbers} */}
+      </h1>
+    </div>
+  );
 }
 
 export default Hello;
